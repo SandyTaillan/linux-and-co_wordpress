@@ -5,24 +5,81 @@ Author URI : http://www.dessins-plaisirs.fr
 Description: Thème Hobbit sur l'informatique
 Version: 1.0
 */
-body{
-    height: 100vh;
+html, body{
     margin: 0;
     padding: 0;
-    background-color: #46565c;
 }
+body{
+    height: 100vh;
+    background-color: #46565c;
+    background-image: url(img/test4.png);
+    color: #e0e0e0;
+    font-size: 1.1em;
+}
+/*--------------------------------*/
+/*            header              */
+/*--------------------------------*/
 header{
     width: 100%;
-    height: 10%;
-    background-color: #1e6abc;
+    margin: 0;
+    background-color: #394144;
+    background-image: url(img/test5.png);
+}
+header h1{
+    font-size: 2em;
+}
+header p{
+    margin-top: 40px;
+    font-size: 0.8em;
+}
+#header-entete{
+    display: flex;
+    justify-content: space-around;
+}
+#header-nav ul{
+    display: flex;
+    margin-top: 0;
+    padding: 10px;
+    background-image: url(img/test3.png);
+    list-style: none;
+    justify-content: center;
+}
+#header-nav ul li{
+    padding-right: 25px;
+    text-transform: uppercase;
+}
+#header-nav a{
+    text-decoration: none;
+}
+#header-nav a:visited{
+    color: #e0e0e0;
 }
 main{
     width: 100%;
-    height: 80%;
-    background-color: #3c763d;
+    height: 65%;
+}
+#section-frontpage{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-frontpage img{
+    width: 40%;
+    border: 2px solid black;
+    box-shadow: 0 7px 11px 0 rgba(0,0,0,0.92);
+    -webkit-box-shadow: 0 7px 11px 0 rgba(0,0,0,0.92);
+    -moz-box-shadow: 0 7px 11px 0 rgba(0,0,0,0.92);
+}
+#section-frontpage p{
+    width: 40%;
+    margin-left: 8%;
 }
 footer{
     width: 100%;
     height: 10%;
-    background-color: #8b8b8b;
+    background-image: url(img/test3.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
