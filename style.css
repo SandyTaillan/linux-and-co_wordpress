@@ -1,0 +1,28 @@
+/*
+Theme Name: hobbit
+Author: Sandy Taillan
+Author URI : http://www.dessins-plaisirs.fr
+Description: Thème Hobbit sur l'informatique
+Version: 1.0
+*/
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #46565c;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: #1e6abc;
+}
+main{
+    width: 100%;
+    height: 80%;
+    background-color: #3c763d;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #8b8b8b;
+}
