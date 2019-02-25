@@ -27,11 +27,11 @@
             </div>
             <nav id="header-nav">
                 <ul>
-                    <li><a href="/">Accueil</a></li>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="http://linux-and-co.dessins-plaisirs.fr/actualites">Actualités</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">À propos</a></li>
+                    <li><a href="/" class="a-visited">Accueil</a></li>
+                    <li><a href="#" class="a-visited">Articles</a></li>
+                    <li><a href="http://linux-and-co.dessins-plaisirs.fr/actualites" class="a-visited">Actualités</a></li>
+                    <li><a href="#" class="a-visited">Contact</a></li>
+                    <li><a href="#" class="a-visited">À propos</a></li>
                 </ul>
             </nav>
         </header>
